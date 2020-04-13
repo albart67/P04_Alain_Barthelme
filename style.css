@@ -812,11 +812,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere-compressor.jpg");
+    background-image: url("img/la-chouette-agence-banniere-compressor2.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation-compressor.jpg");
+    background-image: url("img/image-de-presentation-compressor.2jpg.jpg");
 }
 
 @media (max-width: 1024px) {
