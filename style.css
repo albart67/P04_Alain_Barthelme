@@ -29,6 +29,7 @@ a:hover {
     color: #FFFFFF;
 }
 
+/*
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -37,7 +38,7 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+*/
 .bloc {
     width: 100%;
     clear: both;
@@ -91,6 +92,7 @@ a:hover {
     background: top no-repeat;
 }
 
+
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
@@ -103,7 +105,7 @@ a:hover {
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
-    opacity: 0.4;
+    opacity: 0.5;
     background-size: 280px 280px;
 }
 
@@ -147,6 +149,7 @@ a:hover {
 .d-bloc p a {
     color: rgba(255, 255, 255, .8);
 }
+
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -245,6 +248,7 @@ a:hover {
 .l-bloc p a {
     color: rgba(0, 0, 0, 1);
 }
+
 
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
@@ -760,9 +764,11 @@ h4 {
     background-color: #FFFFFF;
 }
 
+
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: transparent;
 }
+
 
 .bgc-atomic-tangerine {
     background-color: #766863;
@@ -773,13 +779,18 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #364577;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #FFFFFF!important;
     color: #575757!important;
+}
+
+#bloc-7 .btn-atomic-tangerine:hover {
+    background: #575757!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-white {
@@ -798,6 +809,7 @@ h4 {
     color: #c27956!important;
 }
 
+
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
@@ -812,7 +824,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere-compressor2.jpg");
+    background-image: url("img/la-chouette-agence-banniere-compressor2light.jpg");
 }
 
 .bg-presentation {
@@ -842,6 +854,7 @@ h4 {
     }
 }
 
+/*
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
@@ -853,6 +866,7 @@ h4 {
         background-attachment: scroll;
     }
 }
+*/
 
 @media (max-width: 991px) {
     .container {
@@ -866,15 +880,21 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+    
+    /*
     .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+    */
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
     }
+    
+    /*
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
@@ -882,6 +902,7 @@ h4 {
         padding-right: constant(safe-area-inset-right);
     }
 }
+    */
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -1059,6 +1080,8 @@ h4 {
     .close-lightbox {
         display: inline-block;
     }
+    
+    /*
     .blocsapp-device-iphone5 {
         background-size: 216px 425px;
         padding-top: 60px;
@@ -1070,7 +1093,7 @@ h4 {
         height: 320px;
     }
 }
-
+*/
 
     
 
