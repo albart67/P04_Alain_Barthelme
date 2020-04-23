@@ -98,7 +98,7 @@ a:hover {
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
-    opacity: 0.5;
+    opacity: 0.05;
     background-size: 280px 280px;
 }
 
@@ -140,7 +140,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255, 1);
 }
 
 
@@ -293,7 +293,12 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 50px;
+    font-size: 60px;
+    font-family:cursive;
+    background-color: white;
+    color: black;
+    padding: 20px 0px;
+    border-radius: 10px;
 }
 
 .navbar {
@@ -624,11 +629,19 @@ h5,
 h6,
 p,
 label,
-.btn,
+.btn
 {
     font-family: "helvetica";
     font-weight: 500;
     color: #35362B!important;
+}
+
+#bloc-5-cta h2{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-family:cursive;
+    margin: 15px 10px;
 }
 
 footer a {
@@ -674,7 +687,7 @@ p {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 40px;
     font-family: sans-serif;
 }
 
@@ -694,7 +707,7 @@ h1 {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.4em;
     color: #333333;
 }
@@ -763,13 +776,14 @@ h4 {
 }
 
 
+
 .bgc-dark-slate-blue {
     background-color: transparent;
 }
 
 
 .bgc-atomic-tangerine {
-    background-color: #766863;
+    background-color: #364577;
 }
 
 .tc-white {
@@ -872,6 +886,7 @@ h4 {
         display: block;
         width: 100%;
     }
+}
 
 @media (max-width: 767px) {
     .page-container {
@@ -1004,6 +1019,5 @@ h4 {
     .close-lightbox {
         display: inline-block;
     }
-    
 }
  
